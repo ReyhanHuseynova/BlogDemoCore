@@ -1,0 +1,57 @@
+﻿@model EntityLayer.Concrete.Writer
+@{
+    ViewData["Title"] = "WriterEditProfile";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+@using (Html.BeginForm("WriterEditProfile", "Writer", FormMethod.Post))
+{
+   
+
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Writer Profile Edit</h4>
+                @Html.HiddenFor(x=>x.WriterID,new {@class="form-control"})
+                <form class="forms-sample">
+                   
+                    <div class="form-group">
+                        <label asp-for="WriterName" for="exampleInputName1"></label>
+                        <input asp-for="WriterName" name="WriterName" class="form-control" placeholder="Name">
+                        <span asp-validation-for="WriterName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="WriterEmail" for="exampleInputEmail3"> </label>
+                        <input asp-for="WriterEmail" name="WriterEmail" class="form-control" placeholder="Email">
+                        <span asp-validation-for="WriterEmail" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="WriterPassword" for="exampleInputPassword4"></label>
+                        <input asp-for="WriterPassword" name="WriterPassword" type="password" class="form-control" placeholder="Password">
+                        <span asp-validation-for="WriterPassword" class="text-danger"></span>
+                    </div>
+                  
+                    <div class="form-group">
+                        <label>Writer Image</label>
+                        <input type="file" name="img[]" class="file-upload-default">
+                        <div class="input-group col-xs-12">
+                            <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
+                            <span class="input-group-append">
+                                <button class="file-upload-browse btn btn-gradient-primary" type="button">Upload</button>
+                            </span>
+                        </div>
+                    </div>
+                   
+                    <div class="form-group">
+                        <label asp-for="WriterAbout" for="exampleTextarea1"></label>
+                        <textarea asp-for="WriterAbout" name="WriterAbout" class="form-control" rows="4"></textarea>
+                        <span asp-validation-for="WriterAbout" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-gradient-primary mr-2">Update</button>
+                    <button class="btn btn-light">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+}
+

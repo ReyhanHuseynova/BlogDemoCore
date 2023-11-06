@@ -1,0 +1,18 @@
+﻿@model EntityLayer.Concrete.Message2
+@{
+    ViewData["Title"] = "Message2Detail";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+<h1>Message Details</h1>
+<div>
+<label asp-for="MessageID"> </label>
+<input asp-for="MessageID"/>
+</div>
+<div>
+<label asp-for="Subject"> </label>
+<input asp-for="Subject"/>
+</div>
+<div>
+<label asp-for="MessageDetails" > </label>
+<textarea  asp-for="MessageDetails"></textarea>
+</div>

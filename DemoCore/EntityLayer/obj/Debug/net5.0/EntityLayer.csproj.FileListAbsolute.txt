@@ -1,0 +1,11 @@
+C:\Users\ACER\OneDrive\İş masası\DemoCore\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\ACER\OneDrive\İş masası\DemoCore\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\ACER\OneDrive\İş masası\DemoCore\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\ACER\OneDrive\İş masası\DemoCore\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\OneDrive\İş masası\DemoCore\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\ACER\OneDrive\İş masası\DemoCore\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\ACER\OneDrive\İş masası\DemoCore\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\İş masası\DemoCore\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\ACER\OneDrive\İş masası\DemoCore\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
+C:\Users\ACER\OneDrive\İş masası\DemoCore\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\ACER\OneDrive\İş masası\DemoCore\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll

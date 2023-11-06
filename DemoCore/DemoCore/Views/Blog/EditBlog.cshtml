@@ -1,0 +1,57 @@
+﻿@model EntityLayer.Concrete.Blog
+@{
+    ViewData["Title"] = "EditBlog";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+<div style="margin-left:50px" class="col-md-10 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Edit Blogs</h4>
+          
+            <form class="forms-sample" method="post">
+                <div class="form-group row">
+                    <label asp-for="BlogID" for="exampleInputUsername2" class="col-sm-3 col-form-label"></label>
+                    <div class="col-sm-9">
+                        <input asp-for="BlogID" class="form-control" >
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label asp-for="BlogTitle" for="exampleInputUsername2" class="col-sm-3 col-form-label"></label>
+                    <div class="col-sm-9">
+                        <input asp-for="BlogTitle"  class="form-control"  >
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label asp-for="BlogThumbnailImage" for="exampleInputEmail2" class="col-sm-3 col-form-label"></label>
+                    <div class="col-sm-9">
+                        <input asp-for="BlogThumbnailImage" class="form-control" id="exampleInputEmail2">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label asp-for="BlogImage" for="exampleInputMobile" class="col-sm-3 col-form-label"></label>
+                    <div class="col-sm-9">
+                        <input asp-for="BlogImage" class="form-control" >
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.Label("Category")
+                    @Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.cv, new{@class="form-control"})
+                </div>
+                <div class="form-group row">
+                    <label asp-for="BlogContent" for="exampleInputPassword2" class="col-sm-3 col-form-label"></label>
+                    <div class="col-sm-9">
+                        <textarea asp-for="BlogContent" class="form-control" id="exampleInputPassword2" ></textarea>
+                    </div>
+                </div>
+             
+               
+                <button type="submit" class="btn btn-gradient-primary mr-2">Submit</button>
+                <button class="btn btn-light">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,11 @@
+C:\Users\ACER\OneDrive\İş masası\DemoCore\CoreLayer\bin\Debug\net5.0\CoreLayer.deps.json
+C:\Users\ACER\OneDrive\İş masası\DemoCore\CoreLayer\bin\Debug\net5.0\CoreLayer.dll
+C:\Users\ACER\OneDrive\İş masası\DemoCore\CoreLayer\bin\Debug\net5.0\CoreLayer.pdb
+C:\Users\ACER\OneDrive\İş masası\DemoCore\CoreLayer\obj\Debug\net5.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\OneDrive\İş masası\DemoCore\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\ACER\OneDrive\İş masası\DemoCore\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfo.cs
+C:\Users\ACER\OneDrive\İş masası\DemoCore\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\İş masası\DemoCore\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
+C:\Users\ACER\OneDrive\İş masası\DemoCore\CoreLayer\obj\Debug\net5.0\refint\CoreLayer.dll
+C:\Users\ACER\OneDrive\İş masası\DemoCore\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+C:\Users\ACER\OneDrive\İş masası\DemoCore\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
